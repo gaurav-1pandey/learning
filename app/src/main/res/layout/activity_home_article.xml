@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/article_bg">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:text="There's no single answer to the question of how to get good health. Everyone's individual needs vary, so what works for one person might not work for another. However, there are some general tips that can help everyone make healthier choices and improve their overall health.  Some basic tips for good health include: eating a balanced and healthy diet, getting regular exercise, getting enough sleep, and avoiding harmful habits like smoking and excessive alcohol consumption. Making even small changes in these areas can have a big impact on overall health.  Of course, these are just general tips and everyone's situation is different. Some people may need to make more drastic changes to their lifestyle in order to see significant improvements in their health, while others may only need to make small tweaks. Working with a doctor or other healthcare professional can be a good way to figure out what changes are necessary to improve one's health."
+                android:textSize="34dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="There's no single answer to the question of how to get good health. Everyone's individual needs vary, so what works for one person might not work for another. However, there are some general tips that can help everyone make healthier choices and improve their overall health.  Some basic tips for good health include: eating a balanced and healthy diet, getting regular exercise, getting enough sleep, and avoiding harmful habits like smoking and excessive alcohol consumption. Making even small changes in these areas can have a big impact on overall health.  Of course, these are just general tips and everyone's situation is different. Some people may need to make more drastic changes to their lifestyle in order to see significant improvements in their health, while others may only need to make small tweaks. Working with a doctor or other healthcare professional can be a good way to figure out what changes are necessary to improve one's health."
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/entry_bg"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                app:backgroundTint="#AC0D72" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
